@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,100;1,200;1,500&family=Roboto:ital,wght@0,300;0,500;1,100;1,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins';
+    /* background: #f7f3f3; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+  }
+
+  #playmelogo span{
+    color: rgb(237, 35, 69);
+    font-weight: bolder;
+  }
+  
+  nav #playmelogo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav .menu-icon {
+    display: none;
+  }
+  
+  nav .menu {
+    display: flex;
+  }
+  
+  nav .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav .menu ul li {
+    margin-right: 20px;
+  }
+  
+  nav .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+     cursor: pointer;
+  }
+  
+  #loginICON a{
+    background: rgb(237, 35, 69);
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+      #home{
+        background: rgb(237, 35, 69);
+        padding: 5px;
+      }
+
+
+
+.text-img{
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    gap: 220px;
+}
+
+
+.textOnBg{
+    margin-top: 6%;
+}
+
+.textOnBg h1{
+    font-size: 65px;
+    color: rgb(237, 35, 69);
+}
+
+.paragrapOnBg p {
+    text-align: justify;
+    margin-top: 5%;
+    color: #050505;
+}
+.getStarted , .learnMore {
+    padding: 8px;
+    background: black;
+    border-radius: 7px;
+}
+
+
+
+.getStarted a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.getStarted i{
+    background: rgb(237, 35, 69);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.BGIM1 {
+  display: none;
+}
+
+.BGIM{
+    margin-top: -14%;
+}
+
+.BGIM img{
+    width: 540px;
+    height: auto;
+}
+
+
+.musicLogo{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -30%;
+}
+
+.musicLogo1{
+  display: none;
+}
+.musicLogo img{
+    width: 60px;
+}
+
+
+
+.playMusic{
+    background: black;
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.playMusicText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    /* margin-top: -3%; */
+}
+.text-one{
+    font-size: 36px;
+}
+
+.play{
+  font-size: 18px;
+}
+.play span{
+    color: rgb(237, 35, 69);
+    /* font-size: ; */
+}
+
+.anotherbtn{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.beFirst{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.inputEmal{
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.inputEmal input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    font-size: 16px;
+    width: 65%;
+    font-weight: bolder;
+    box-shadow: 0  3px 5px rgb(198, 197, 193);
+
+}
+
+.inputEmal a{
+    padding: 8px;
+    background: rgb(237, 35, 69);
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;    
+    text-decoration: none;
+    box-shadow: 0  3px 5px rgb(198, 197, 193);  
+}
+
+.agree{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+
+.agree p{
+    font-size: 14px;
+    margin-left: 1%;
+    color: #fff;
+}
+
+
+.event{
+    padding: 10px;
+    background: black;
+    /* margin-top: 4%; */
+
+}
+
+
+#event-text{
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.eventFlex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.con-event{
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.con-event img{
+    width: 300px;
+}
+
+.con-event h3,p{
+    color: #fff;
+    padding: 10px;
+}
+
+.con-event h3{
+    margin-top: -30%;
+    background-color: black;
+    position: relative;
+    width: 200px;
+    
+}
+.con-event p{
+    margin-top: 1%;
+    background-color: rgb(237, 35, 69);
+    position: relative;
+    width: 220px;
+    
+}
+
+.con-event:hover{
+  animation: evenHover 2s;
+  
+}
+
+@keyframes evenHover {
+  0%{
+    transform: scale(0.9);
+  }
+}
+
+
+footer{
+  background: #050505;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* padding: 10px; */
+  /* margin: 10px; */
+}
+.social, .customerService, .onChain{
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+
+}
+.social a, .customerService a, .onChain a{
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+footer h2{
+  color: rgb(237, 35, 69);
+}
+
+
+
+
+
+.copy p{
+  font-size: 14px;
+  color: rgb(237, 35, 69);
+  text-align: center;
+}
+
+
+.audioBTN{
+  position: sticky;
+  top: 50px;
+  bottom: 70px;
+
+  /* background: url(/img/persons/person_4.jpg); */
+}
+
+
+/* Style the audio tag using its class attribute */
+.my-audio {
+  position: absolute;
+
+}
+/* 
+/* END OF HOME PAGE */
+
+
+
+
+
+/* Mobile View */
+
+
+@media screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      position: sticky;
+      /* top: 0px;
+      bottom: 50px; */
+    }
+    
+    #playmelogo span{
+        color: rgb(237, 35, 69);
+        font-weight: bolder;
+      }
+
+      #playmelogo{
+        transform: translate(170%, 20%);
+      }
+    
+    nav .menu {
+      display: none;
+      width: 100%;
+      background: none;
+      /* background-color: ; */
+      padding: 10px 20px;
+    }
+    
+    nav .menu ul {
+      flex-direction: column;
+    }
+    
+    nav .menu ul li {
+      margin: 10px 0;
+      list-style: none;
+    }
+
+    ul li a {
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+       
+      }
+      #home{
+        background: rgb(237, 35, 69);
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px;
+        width: 75px;
+      }
+      #loginICON{
+        list-style: none;
+      }
+
+      #loginICON i{
+        /* margin:2px; */
+        padding: 2px;
+        color: #fff;
+      }
+
+      #loginICON a{
+        background: rgb(237, 35, 69);
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px;
+        width: 100px;
+      }
+      
+
+    
+    nav .menu-icon {
+        margin-top: -7%;
+        display: block;
+        font-size: 28px;
+        color: #fff;
+        cursor: pointer;
+    }
+ 
+.text-img{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+
+}
+.paragrapOnBg p{
+  font-size: 12px;
+  text-align: justify;
+}
+
+.textOnBg h1{
+  display: block;
+  width: 200px;
+  font-size: 32px;
+
+  /* gap: 20px; */
+}
+   
+.BGIM1 {
+  display: flex;
+  margin-top: -44%;
+  margin-left: 45%;
+}
+
+.BGIM1 img{
+  width: 200px;
+}
+
+.musicLogo1{
+  display: flex;
+  margin-top: -23%;
+  
+}
+.musicLogo1 img{
+  width: 45px;
+
+  /* margin-left: 35%; */
+  
+}
+
+/* Duplicated Image for MV */
+.BGIM img{
+  display: none;
+
+}
+.musicLogo{
+  display: none;
+}
+
+.playMusic{
+  padding: 10px;
+  /* position: absolute; */
+  margin-top: -40%;
+  /* background: url(/img/Music\ Bac.jpg) no-repeat; */
+  width: 100%;
+  height: 380px;
+  flex-wrap: wrap;
+}
+
+.playMusic img{
+  visibility: hidden;
+  height: auto;
+}
+
+
+.text-one{
+  font-size: 18px;
+  font-weight: bolder;
+  /* margin-top: -5%; */
+}
+
+.play p{
+  font-size: 12px;
+}
+
+
+.anotherbtn{
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+/* .SignBtn1{
+  /* margin-top: -12%; */
+  /* padding: 10px; */
+  /* margin: 10px; */
+/* } */ 
+
+.inputEmal{
+  display: grid;
+  margin-top: -5%;
+  margin-left: -7%;
+}
+
+.inputEmal input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 10px;
+}
+
+.inputEmal a{
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  width: 40%;
+  padding: 0;
+  font-size: 12px;
+}
+
+
+.agree{
+  display: flex;
+  margin-left: -70%;
+  margin-top: -10%;
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.agree p{
+  font-size: 10px;
+  display: block;
+  text-align: center;
+}
+.beFirst{
+  font-size: 16px;
+}
+  }
+

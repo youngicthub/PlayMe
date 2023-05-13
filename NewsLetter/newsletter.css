@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,100;1,200;1,500&family=Roboto:ital,wght@0,300;0,500;1,100;1,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins';
+    background-color: #fff;
+    /* color: #fff; */
+}
+
+/* SUBSCRIPTION PAGE STARTS */
+
+.displayOfSubsc{
+  background: url(/img/Subscription\ BG.jpg);
+  padding: 10px;
+  margin-top: -3%;
+}
+#subscript{
+    width: 1000px;
+    background-color: rgb(237, 35, 69);
+    padding: 10px;
+    height: 300px;
+    margin: 0 auto;
+    box-shadow: 3px  8px 8px rgb(198, 197, 193);
+    border-radius: 20px;
+  }
+
+  #subscript h1{
+    text-align: center;
+    margin-top: 7%;
+    text-transform: uppercase;
+  }
+  .subscription{
+    color: #fff;
+    text-align: center;
+  }
+
+  label{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  label input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  label a{
+    padding: 10px;
+    background-color: rgb(5, 5, 5);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 1%;
+    color: #fff;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .displayOfSubsc {
+      width: 100%;
+      background: black;
+      margin-top: -50%;
+      
+    }
+
+    #subscript{
+      width: 90%;
+    }
+
+    #subscript h1{
+      font-size: 20px;
+    }
+
+    .subscription{
+      font-size: 14px;
+    }
+
+    label{
+      flex-wrap: wrap;
+    }
+    label input{
+      width: 80%;
+      padding: 5px;
+      border-radius: 10px;
+      margin-bottom: 3%;
+    }
+
+    label a{
+      padding: 5px;
+    }
+  }
